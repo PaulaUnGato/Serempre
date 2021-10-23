@@ -1,0 +1,46 @@
+$border: 2px solid #eeeff2;
+$borderSelected: 2px solid #111111;
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  height: 330px;
+  border: $border;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.imageHeader {
+  display: block;
+  max-width: 100vw;
+  max-height: 330px;
+  width: auto;
+  height: auto;
+}
+
+.imageSelected {
+  border: $borderSelected;
+}
+
+.imageNotSelected {
+  border: $border;
+}
+
+.containerSelector {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 48px;
+}
+.selector {
+  flex: 1;
+
+  border-radius: 5px;
+  padding: 0 4px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.imageSelector {
+  height: 37px;
+}

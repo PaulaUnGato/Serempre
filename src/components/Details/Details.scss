@@ -1,0 +1,24 @@
+.detailDescription {
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.selectorTabs {
+  display: flex;
+  list-style: none;
+}
+
+.tab {
+  margin-right: 24px;
+  font-size: 19px;
+  line-height: 24px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.tabSelected {
+  color: #111111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

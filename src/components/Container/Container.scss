@@ -1,0 +1,28 @@
+$breakpoint-mobile: 320px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1280px;
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  width: 100vw;
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .container {
+    max-width: 1218px;
+  }
+}
+
+@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+  .container {
+    max-width: 542px;
+  }
+}
+
+// @media (max-width: $breakpoint-mobile) {
+//   .container {
+//     width: 100%;
+//     width: 100vw;
+//   }
+// }
