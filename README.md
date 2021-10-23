@@ -1,3 +1,8 @@
+Proyecto hecho en React, se crearon componentes para fragmentar la construcción de la apágina.
+Se utilizaon los hooks useState y useEfect para manejar el estado del tab y la imagen seleccionados y para el llamado al sevicio.
+Se utilizó Sass para los estilos y así facilitar el uso de variables.
+Hicieron falta algunos componentes y estilos, los cuals me hubiera gustado mejorar.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
