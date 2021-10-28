@@ -14,7 +14,7 @@ import ImagesContainer from "../Images/ImagesContainer";
 
 import "./Container.scss";
 
-const baseURL = "https://frontend-interview-api.vercel.app/api/items";
+const baseURL = "/api/items";
 
 const Container = () => {
   const [data, setData] = useState(null);
